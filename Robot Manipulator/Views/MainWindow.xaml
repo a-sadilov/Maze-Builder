@@ -73,7 +73,7 @@
             <MenuItem Header="Помощь" Height="29" Width="58" >
                 <MenuItem Header="Выводимые параметры" Click="MenuItemHelpValues_Click"></MenuItem>
                 <MenuItem Header="Изменение выделенного объекта" Click="MenuItemHelpSelectedItemChanging_Click"></MenuItem>
-                <MenuItem Header="Добавление/удаление элементов" Click="MenuItemHelpAddDelElement_Click"></MenuItem>
+                
                 <MenuItem Header="Масштабирование/центрирование" Click="MenuItemHelpScaleCenter_Click"></MenuItem>
                 <MenuItem Header="Сохранение/загрузка лабиринта" Click="MenuItemHelpFiles_Click"></MenuItem>
             </MenuItem>
