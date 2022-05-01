@@ -7,20 +7,12 @@ using Robot_Manipulator.Models;
 
 namespace MazeBilder
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         
         public MainWindow()
         {
             InitializeComponent();            
-            
-            //renderingTimer.Tick += RenderingTimer_Tick;
-            //renderingTimer.Start();
-
-            
         }
 
         const float ScaleRate = 0.1f;
@@ -64,16 +56,7 @@ namespace MazeBilder
 
             MessageBox.Show(outputMessage);
         }
-        /*
-                private void MenuItemHelpAddDelElement_Click(object sender, RoutedEventArgs e)
-                {
-                    string outputMessage = "Новый элемент добавляется к самому последнему элементу. Тип его выбирается автоматически.\n" +
-                        "Удалять можно лишь выбранный элемент, все идущие от него элементы при этом удалятся тоже\n" +
-                        "Нулевой элемент удалить нельзя\n";
-
-                    MessageBox.Show(outputMessage);
-                }*/
-
+        
         private void MenuItemHelpScaleCenter_Click(object sender, RoutedEventArgs e)
         {
             string outputMessage = "Программа автоматически центрирует лабиринт прижимая его к левому верхнему углу области вывода, данная опция не настраивается, можно настроить лишь на этапе компиляции.\n" +
