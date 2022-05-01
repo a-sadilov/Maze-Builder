@@ -54,5 +54,5 @@ ___
 
 ### Контакты
 
-Email - [a.sadilov.official@gmail.com](mailto:a.sadilov.official@gmail.com)
-Telegram - [@bisnachauszuvorbei](https://t.me/bisnachauszuvorbei)
+* [Email]() - [a.sadilov.official@gmail.com](mailto:a.sadilov.official@gmail.com)
+* [Telegram]() - [@bisnachauszuvorbei](https://t.me/bisnachauszuvorbei)
